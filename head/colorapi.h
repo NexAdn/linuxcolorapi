@@ -22,16 +22,16 @@
  */
 
 namespace color {
-	char* reset = 		"\033[0m";
-	char* bold = 		"\033[1m";
-	char* faint = 		"\033[2m";
-	char* italic = 		"\033[3m";
-	char* underline = 	"\033[4m";
-	char* blink1 = 		"\033[5m";
-	char* blink2 = 		"\033[6m";
-	char* negative = 	"\033[7m";
-	char* conceal = 	"\033[8m";
-	char* crossed = 	"\033[9m";
+	const char* reset = 		"\033[0m";
+	const char* bold = 		"\033[1m";
+	const char* faint = 		"\033[2m";
+	const char* italic = 		"\033[3m";
+	const char* underline = 	"\033[4m";
+	const char* blink1 = 		"\033[5m";
+	const char* blink2 = 		"\033[6m";
+	const char* negative = 	"\033[7m";
+	const char* conceal = 	"\033[8m";
+	const char* crossed = 	"\033[9m";
 	
 	char* altfont(unsigned short i)
 	{
@@ -71,24 +71,24 @@ namespace color {
 	}
 	
 	namespace fg {
-		char* black = 	"\033[30m";
-		char* red = 	"\033[31m";
-		char* green = 	"\033[32m";
-		char* yellow = 	"\033[33m";
-		char* blue = 	"\033[34m";
-		char* magenta = "\033[35m";
-		char* cyan = 	"\033[36m";
-		char* white = 	"\033[37m";
+		const char* black = 	"\033[30m";
+		const char* red = 	"\033[31m";
+		const char* green = 	"\033[32m";
+		const char* yellow = 	"\033[33m";
+		const char* blue = 	"\033[34m";
+		const char* magenta = "\033[35m";
+		const char* cyan = 	"\033[36m";
+		const char* white = 	"\033[37m";
 	}
 	
 	namespace bg {
-		char* black = 	"\033[40m";
-		char* red = 	"\033[41m";
-		char* green = 	"\033[42m";
-		char* yellow = 	"\033[43m";
-		char* blue = 	"\033[44m";
-		char* magenta = "\033[45m";
-		char* cyan = 	"\033[46m";
-		char* white = 	"\033[47m";
+		const char* black = 	"\033[40m";
+		const char* red = 	"\033[41m";
+		const char* green = 	"\033[42m";
+		const char* yellow = 	"\033[43m";
+		const char* blue = 	"\033[44m";
+		const char* magenta = "\033[45m";
+		const char* cyan = 	"\033[46m";
+		const char* white = 	"\033[47m";
 	}
 }
